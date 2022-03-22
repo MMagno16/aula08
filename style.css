@@ -1,8 +1,10 @@
-body {
-    font-family: "Roboto Mono", monospace;
+@import url("https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;500&display=swap");
+
+* body {
+  font-family: "Rajdhani";
     min-height: 854px;
-    background-image: url("https://i.pinimg.com/originals/79/8c/31/798c31128884edaf84f2e4d5acd61730.gif");
-    background-color: pink;
+    background-image: url("https://i.ytimg.com/vi/pVc8BpRnlh8/maxresdefault.jpg");
+    background-color: rgb(247, 196, 205);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -80,7 +82,7 @@ body {
   
   .resultado-final {
     color: pink;
-    font-size: 2rem;
+    font-size: 40px;
     text-transform: uppercase;
     font-weight: bolder;
     padding: 1rem;
@@ -124,5 +126,6 @@ body {
   
   div {
     color: pink;
+    font-size: large;
   }
   

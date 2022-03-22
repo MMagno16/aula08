@@ -107,6 +107,7 @@ var carta1 = {
     exibirCartaJogador();
   }
   
+  
   function obtemAtributoSelecionado() {
     //GetElementsByName, está pegando o atributo do Input type NAME.
     var radioAtributos = document.getElementsByName("atributo");
